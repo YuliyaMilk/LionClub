@@ -1,0 +1,91 @@
+ div { box-sizing: border-box;}
+ .logo {padding-top:0px;
+ margin:0;
+ }
+   
+ .menu .nav-link span:hover {
+    /*border-bottom: 2px solid rgb(0,0,153);*/
+    color:#fff; }       
+ 
+  .menu .active  .nav-link span {
+    color: #fff;
+}
+ 
+ nav{ 
+     float:right;
+     margin-top:50px} 
+ .menu{
+      padding: 0;
+      margin: 0; 
+      display:block;
+      }
+ .menu li {
+      float: left;
+      display:block;
+      margin-right: 30px}
+ .menu a{
+      color: Red;
+      text-shadow:black 0 0 2px;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size:25px;}
+   
+ 
+ body {    background: url(Tolpa.jpg) no-repeat center top/ cover;
+      background-attachment:fixed;
+     font-family: Arial, sans-serif;
+     padding: 0;
+     margin: 0;}
+     
+
+
+ header{ 
+     height:200px;
+     border-top:none;
+     margin-bottom: 50px;
+     }   
+ .container{     
+     width: 1500px;
+     margin: 0 auto}
+ 
+ .AboutClub {
+      border-radius:15px;
+      padding: 20px;
+      background:rgba(204,204,204,0.9);
+      width:700px;
+      height:700px;
+     
+      float:left;
+      border:solid 4px white;
+      color:rgb(0,0,0);
+      font-size: 26px;
+      margin-left:270px;
+      margin-top:30px;
+      font-family: Georgia,serif;}
+      
+ .Photo {
+ border-radius:15px;
+ width:800px;
+ height:1000px;
+ float:right;
+ margin-right:90px;
+ margin-top:30px;}
+ 
+ .photo1 {margin-bottom:10px;
+          border-radius:15px;}
+ .photo2 {margin-top:60px;
+          margin-bottom:10px;
+          border-radius:15px;}
+ .photo3 {border-radius:15px;}
+ 
+ .Plan {
+ float:left;
+ width:800px;
+ height:800px;
+ margin-left:220px;
+ margin-top:50px;}
+ 
+ .plan_img {transition:width 0.5s ease;}
+}
+ 
+  .Plan:hover .plan_img{width:1300;}
