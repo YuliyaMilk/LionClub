@@ -1,0 +1,161 @@
+/*.LoginOrRegistr {
+          border-radius:30px;
+
+          margin:auto;
+          width:500px;
+          height:300px;
+          background:rgb(204,204,204);
+          border:solid 4px white;
+          font-size:35px;
+          font-family:Georgia,serif;
+          padding:20px;}*/
+a.button8 {
+  display: inline-block; 
+  color: white;
+  width:300px;
+  font-size:35px;
+  font-family: Georgia ,sans-serif;
+  text-decoration: none;
+  user-select: none;
+  padding: .5em 2em;
+  outline: none;
+  border: 2px solid;
+  border-radius: 1px;
+  transition: 0.2s;
+} 
+a.button8:hover { background: rgba(255,255,255,.2); }
+a.button8:active { background: white; }
+          
+
+          
+.text2 {font-family:Georgia,serif;
+        margin-top:30px;
+        width:800px;
+        height:300px;
+        font-size:30px;
+        padding:20px;
+        border-radius:30px;
+        border:solid 4px white;
+        background:rgb(204,204,204);
+        }
+.logout {font-family:Georgia,serif;
+        margin-top:10px;
+        width:800px;
+        height:80px;
+        font-size:30px;
+        padding:15px;
+        border-radius:30px;
+        border:solid 4px white;
+        background:rgb(204,204,204);}
+        
+.forma { border-radius:15px;
+          margin:auto;
+          font-size:25px;
+          width:600px;
+          height:600px;
+          text-align:center;
+          background:rgba(204,204,204,0.5);
+          border:solid 4px white;
+          font-size:35px;
+          font-family:Georgia,sans-serif;
+          padding:20px; }
+          
+input {width:400px;
+       height:35px;
+       background: rgba(128,128,128,0.5);
+       border-radius:5px;
+        }
+        
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background:rgba(0,0,0,0.8);
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.forma2 { border-radius:15px;
+          margin:auto;
+          
+          width:600px;
+          height:720px;
+          text-align:center;
+          background:rgba(204,204,204,0.5);
+          border:solid 4px white;
+          font-size:25px;
+          font-family:Georgia,sans-serif;
+          padding:20px; }
+          
+.button2 {
+  display: inline-block;
+  border-radius: 4px;
+  background:rgba(0,0,0,0.8);
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 315px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button2 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button2 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button2:hover span {
+  padding-right: 25px;
+}
+
+.button2:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+          
+          

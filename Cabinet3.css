@@ -1,0 +1,48 @@
+div { box-sizing: border-box;}
+ .logo {padding-top:0px;
+ margin:0;
+ }
+   
+ .menu .nav-link span:hover {
+    border-bottom: 2px solid rgb(0,0,153); }
+ 
+  .menu .active  .nav-link span {
+    color: #fff;
+}
+ 
+ nav{ 
+     float:right;
+     margin-top:50px} 
+ .menu{
+      padding: 0;
+      margin: 0; 
+      display:block;
+      }
+ .menu li {
+      float: left;
+      display:block;
+      margin-right: 30px}
+ .menu a{
+      color: Red;
+      text-shadow:black 0 0 2px;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size:25px;}
+   
+ 
+ body {    background: url(Tolpa.jpg) no-repeat center top/ cover;
+      background-attachment:fixed;
+     font-family: Arial, sans-serif;
+     padding: 0;
+     margin: 0;}
+     
+
+
+ header{ 
+     height:200px;
+     border-top:none;
+     margin-bottom: 50px;
+     }   
+ .container{     
+     width: 1500px;
+     margin: 0 auto}
