@@ -1,0 +1,261 @@
+ div { box-sizing: border-box;}
+ .logo {padding-top:0px;
+ margin:0;
+ }
+   
+ .menu .nav-link span:hover {
+    /*border-bottom: 2px solid rgb(0,0,153);*/
+    color:#fff; }
+ 
+  .menu .active  .nav-link span {
+    color: #fff;
+}
+ 
+ nav{ 
+     float:right;
+     margin-top:50px} 
+ .menu{
+      padding: 0;
+      margin: 0; 
+      display:block;
+      }
+ .menu li {
+      float: left;
+      display:block;
+      margin-right: 30px}
+ .menu a{
+      color: Red;
+      text-shadow:black 0 0 2px;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size:25px;}
+   
+ 
+ body {    background: url(Tolpa.jpg) no-repeat center top/ cover;
+      background-attachment:fixed;
+     font-family: Arial, sans-serif;
+     padding: 0;
+     margin: 0;}
+     
+
+
+ header{ 
+     height:200px;
+     border-top:none;
+     margin-bottom: 50px;
+     }   
+ .container{     
+     width: 1500px;
+     margin: 0 auto}
+ .container1{
+ width:350px;
+ height:1000px;
+ float:left;}
+ .calendar {float: left}
+ .searchform {float:right;
+ width:975px;
+ padding:15px;
+ background: rgba(0,0,0,.2);
+ border-radius:10px;
+ box-shadow:0 1px 1px rgba(0,0,0,.4) inset, 0 1px 0 rgba(255,255,255,.2); 
+ margin-right:15px;}
+ .searchform input {
+ width:855px;
+ height:30px;
+ padding:10px 5px   ;
+ float:left;
+ font-weight:bold;
+ font-size:20px;
+ font-family: Arial, sans-serif;
+ border:0px;
+ background:#eee;
+ border-radius: 3px 0 0 3px;
+ }
+ .searchform input:focus {
+ outline:0;
+ background:#fff;
+ box-shadow: 0 0 2px rgba(0,0,0.8) inset;
+ }    
+ .searchform button{
+ float:right;
+ position:relative;
+ border:0px;
+ padding:0px;
+ cursor: pointer;
+ height: 50px;
+ width: 110px;
+ font-weight: bold;
+ font-size:15px;
+ font-family: Arial, sans-erif;
+ line-height:40px;
+ color:#fff;
+ text-transform:uppercase;
+ background:#6189ee;
+ border-radius:0 3px 3px 0;
+ text-shadow: 0 -1px 0 rgba(0,0,0,.3);
+ 
+
+ }
+ 
+ .concerts { 
+            width:900px;
+            height;1000px; 
+            float:right;
+            margin:100px 0px 500px 40px;
+            font-family:Avantgarde;
+            font-size: 23px;
+            }  
+ .concerts ul li {
+            padding-bottom:30px;
+            transition: transform 2s;
+   }
+   
+ .concerts ul li img:hover {
+            transform : scale(1.05);}
+ 
+ .The_Killers {
+    border-radius:30px;
+    background: url(The_Killers.jpg ) ;
+    background-size: cover;
+    height: 550px;
+    width: 1000px;
+    padding:0px;
+    margin: 80px 80px 20px;
+    margin-right:20px;
+    float:right;
+}
+.The_Killers p{
+    opacity: 0;
+    font-size: 23px;
+    font-weight: 900px;
+    font-family: Georgia sans-serif;
+    line-height: 40px;
+    text-align: left;
+    color: #fff;
+}
+
+.NameOfBand{text-decoration:none;}
+.The_Killers:hover  p {
+    opacity: 1;
+    background: rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+
+.Advert {border-radius:10px;
+          background:rgba(0,0,0,0.5);
+          border:solid 2px white;
+          padding:10px;
+          color:white;
+    width:350px;
+    height:500 px;
+    float:left;
+    margin-top:100px;
+    font-size: 20px;}
+
+.Metallica {
+    border-radius:30px;
+    background: url(Metallica.jpg ) ;
+    background-size: cover;
+    height: 550px;
+    width: 1000px;
+    padding:0px;
+    margin-bottom:20px;
+
+    margin-right:20px;
+    float:right;
+    
+    }
+ .Metallica p{
+    opacity: 0;
+    font-size: 23px;
+    font-weight: 900px;
+    font-family: Georgia sans-serif;
+    line-height: 40px;
+    text-align: left;
+    color: #fff;           
+ }
+ 
+   .Metallica:hover  p {
+    opacity: 1;
+    background: rgba(0,0,0,0.5);
+    cursor: pointer;   }
+    
+  .Radiohead { background: url(Radiohead.jpg ) ;
+    border-radius:30px;
+    background-size: cover;
+    height: 550px;
+    width: 1000px;
+    padding:0px;
+    margin-bottom:20px;
+    margin-right:20px;
+    float:right;
+  }
+   .Radiohead p{
+    opacity: 0;
+    font-size: 23px;
+    font-weight: 900px;
+    font-family: Georgia sans-serif;
+    line-height: 40px;
+    text-align: left;
+    color: #fff;           
+ }
+     .Radiohead:hover  p {
+    opacity: 1;
+    background: rgba(0,0,0,0.5);
+    cursor: pointer;   }
+    
+    .Tame_Impala {
+    border-radius:30px;
+    background: url(Tame_Impala.jpg ) ;
+    background-size: cover;
+    height: 550px;
+    width: 1000px;
+    padding:0px;
+    margin-bottom:20px;
+    margin-right:20px;
+    float:right;
+  }
+   .Tame_Impala p{
+    opacity: 0;
+    font-size: 23px;
+    font-weight: 900px;
+    font-family: Georgia sans-serif;
+    line-height: 40px;
+    text-align: left;
+    color: #fff;           
+ }
+     .Tame_Impala:hover  p {
+    opacity: 1;
+    background: rgba(0,0,0,0.5);
+    cursor: pointer;   }
+    
+    .Splin {
+    border-radius:30px;
+    background: url(Splin.jpg ) ;
+    background-size: cover;
+    height: 550px;
+    width: 1000px;
+    padding:0px;
+    margin-bottom:20px;
+
+    margin-right:20px;
+    float:right;
+    
+    }
+ .Splin p{
+    opacity: 0;
+    font-size: 23px;
+    font-weight: 900px;
+    font-family: Georgia sans-serif;
+    line-height: 40px;
+    text-align: left;
+    color: #fff;           
+ }
+ 
+   .Splin:hover  p {
+    opacity: 1;
+    background: rgba(0,0,0,0.5);
+    cursor: pointer;   }
+    
+ 
+    
