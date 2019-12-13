@@ -79,7 +79,7 @@ div {
  .contacts {
       width:1450px;
       height:900px;
-      margin-left:285px;
+      margin-left: 30px;
       margin-top:80px;
       border-radius:50px;
       background:rgb(204,204,204);
@@ -112,5 +112,24 @@ div {
      font-family:Georgia,serif;
      display:inline-block;
 }
-              
-              
+
+.qr {
+    width:500px;
+    height:500px;
+    margin-left: 30px;
+    margin-top: 80px;
+    border-radius:50px;
+    background:rgb(204,204,204);
+    border:solid 4px white;
+    margin-bottom: 70px;
+}
+
+h4 {
+    font-family: Georgia, serif;
+    font-size: 28px;
+    color: black;
+    margin-top: 0;
+    padding-top: 40px;
+    margin-bottom: 30px;
+    display: inline-block;
+}
