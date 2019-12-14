@@ -1,0 +1,65 @@
+.Plan {
+ float:left;
+ width:800px;
+ height:800px;}
+ 
+ .plan_vip {transition:width 0.5s ease;}
+}
+ 
+  .Plan:hover .plan_vip{width:1300;}
+  
+.VipInfo {
+      border-radius:15px;
+      padding: 20px;
+      background:rgba(204,204,204,0.9);
+      width:700px;
+      height:400px;
+      margin-top:160px;
+      float:right;
+      border:solid 4px white;
+      color:rgb(0,0,0);
+      font-size: 26px;
+      font-family: Georgia,serif;}
+      
+.DanceInfo {
+      border-radius:15px;
+      padding: 20px;
+      background:rgba(204,204,204,0.9);
+      width:700px;
+      height:400px;
+      margin-top:160px;
+      float:left;
+      border:solid 4px white;
+      color:rgb(0,0,0);
+      font-size: 26px;
+      font-family: Georgia,serif;}
+      
+.SitInfo {
+      border-radius:15px;
+      padding: 20px;
+      background:rgba(204,204,204,0.9);
+      width:700px;
+      height:400px;
+      margin-top:160px;
+      float:left;
+      border:solid 4px white;
+      color:rgb(0,0,0);
+      font-size: 26px;
+      font-family: Georgia,serif;}
+.button {
+  text-decoration: none;
+  outline: none;
+  display: inline-block;
+  color: white;
+  padding: 20px 30px;
+  margin: 10px 20px;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-image: linear-gradient(to right, #9EEFE1 0%, #4830F0 51%, #9EEFE1 100%);
+  background-size: 200% auto;
+  box-shadow: 0 0 20px rgba(0,0,0,.1);
+  transition: .5s;
+}
+.button:hover {background-position: right center;}

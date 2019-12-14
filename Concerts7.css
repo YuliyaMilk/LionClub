@@ -1,0 +1,117 @@
+ div { box-sizing: border-box;}
+ .logo {padding-top:0px;
+ margin:0;
+ }
+   
+ .menu .nav-link span:hover {
+    /*border-bottom: 2px solid rgb(0,0,153);*/
+    color:#fff; }
+ 
+  .menu .active  .nav-link span {
+    color: #fff;
+}
+ 
+ nav{ 
+     float:right;
+     margin-top:50px} 
+ .menu{
+      padding: 0;
+      margin: 0; 
+      display:block;
+      }
+ .menu li {
+      float: left;
+      display:block;
+      margin-right: 30px}
+ .menu a{
+      color: Red;
+      text-shadow:black 0 0 2px;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size:25px;}
+   
+ 
+ body {    background: url(Tolpa.jpg) no-repeat center top/ cover;
+      background-attachment:fixed;
+     font-family: Arial, sans-serif;
+     padding: 0;
+     margin: 0;}
+     
+
+
+ header{ 
+     height:200px;
+     border-top:none;
+     margin-bottom: 50px;
+     }   
+ .container{     
+     width: 1500px;
+     margin: 0 auto}
+     
+ .ConcertImg {width:1000px;
+              height:550px;
+              border-radius:50px;
+              float:left;}
+              
+ .Text { border-radius:50px;
+         float:right;
+         font-family:Georgia sans-serif;
+         font-size:29px;
+         padding:20px;
+         padding-top:0px;
+         
+          
+          width:480px;
+          height:550px;
+          background:rgb(204,204,204);
+          border:solid 4px white;}
+          
+ .Text2 {border-radius:10px;
+         float:left;
+         margin-top:30px;
+         font-family:Georgia sans-serif;
+         font-size:29px;
+         padding:20px;
+         padding-top:0px;
+         
+          
+          width:1500px;
+          height:950px;
+          background:rgb(204,204,204);
+          border:solid 4px white;}
+          
+ .Text a { height:35px;
+           width:150px;
+           float:right;
+           padding-left:60px;
+           padding-top:15px;
+ text-decoration: none;
+  outline: none;
+  display: inline-block;
+  color: white;
+  font-size:20px;
+  /*padding: 20px 30px;*/
+  border-radius: 10px;
+  font-family: Georgia sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-image: linear-gradient(to right, #9EEFE1 0%, #4830F0 51%, #9EEFE1 100%);
+  background-size: 200% auto;
+  box-shadow: 0 0 20px rgba(0,0,0,.1);
+  transition: .5s;
+}
+.Text a:hover {background-position: right center;} 
+
+.title {margin-left:300px; }
+
+.ticket { width:1000px;
+            height:600px;
+            border-radius:20px;
+            font-size:27px;
+            font-family: Georgia,serif;
+            border:solid 3px white;
+            background:rgb(204,204,204);}
+            
+.imgg {float:right;}
+.textTick {float:left;}
+         
